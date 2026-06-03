@@ -3,6 +3,10 @@
 <video src="demo.mp4" width="100%" autoplay loop muted playsinline></video>
 
 
+**Website:** https://toqie.com  
+**Contact:** architect@toqie.com
+
+
 This folder contains the public/stateless Toqie Kernel package.
 
 ## Included
