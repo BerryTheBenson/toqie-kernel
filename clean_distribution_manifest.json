@@ -1,0 +1,67 @@
+{
+  "created_utc": "2026-06-03T03:06:59.925773+00:00",
+  "source": "dist/toqie-public-release",
+  "target": "toqie-public-distribution-repo",
+  "file_count": 11,
+  "files": [
+    {
+      "path": "deploy_toqie.py",
+      "size_bytes": 1834,
+      "sha256": "6ac941d5660091852e2648435fdd4e6d38ea5b578397d85b90821095ea73de2e"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 655,
+      "sha256": "6e722f5e9f5fdab1ac495fd09ec272f1b6582a0399ec5984e1d37894a6618910"
+    },
+    {
+      "path": "release/kernel_http.py",
+      "size_bytes": 1128,
+      "sha256": "7d921d2181f97e825fb5d58b9fc5f1734769a3c14a202d328f5bb0f26924fa17"
+    },
+    {
+      "path": "release/kernel_parser.py",
+      "size_bytes": 2315,
+      "sha256": "dabb47ffd58bba03796f657d21d51a85c5dfb0f1408e1a16e8c9565cdbdf95df"
+    },
+    {
+      "path": "release/kernel_runner.py",
+      "size_bytes": 6687,
+      "sha256": "11ad659f8d028dddca262265c628270a629c8e3cb01d402971f35ac162e10f1d"
+    },
+    {
+      "path": "release/kernel_secret_guard.py",
+      "size_bytes": 458,
+      "sha256": "6e0f287309a9317f7d4beff8a15632c0e3a6328abe3aab04fe1c0ebac8816585"
+    },
+    {
+      "path": "release/local_secrets.example.json",
+      "size_bytes": 60,
+      "sha256": "6db3e09b6c6de12b38c178a21249100dcadf0539e6f217beca46db199d60ed50"
+    },
+    {
+      "path": "release/provider_config.example.json",
+      "size_bytes": 882,
+      "sha256": "8f4a75e1e44ba07216471d789999ca79ef0d94410f9a9c7564fd88fb29bcd90c"
+    },
+    {
+      "path": "release/provider_config.json",
+      "size_bytes": 882,
+      "sha256": "8f4a75e1e44ba07216471d789999ca79ef0d94410f9a9c7564fd88fb29bcd90c"
+    },
+    {
+      "path": "release/README.md",
+      "size_bytes": 306,
+      "sha256": "eec65a3a6debaa76c1f1d67da457f78a5bd55b608d0186c949766a85885cc13f"
+    },
+    {
+      "path": "release/run_with_local_secrets.py",
+      "size_bytes": 1113,
+      "sha256": "5223418b155cf093b3b3be89eecada4fc7ea2010bc034e58787037ae9dcb73af"
+    }
+  ],
+  "leaks": [],
+  "clean": true,
+  "path_sanitized": true,
+  "path_policy": "Local absolute filesystem paths removed before public release."
+}

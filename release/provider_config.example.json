@@ -1,0 +1,27 @@
+{
+  "provider_name": "groq",
+  "endpoint_url": "https://api.groq.com/openai/v1/chat/completions",
+  "model_name": "openai/gpt-oss-20b",
+  "api_key_environment_variable": "KERNEL_PROVIDER_API_KEY",
+  "response_text_paths": [
+    "choices.0.message.content",
+    "choices.0.text",
+    "output_text",
+    "response",
+    "message.content"
+  ],
+  "timeout_seconds": 30,
+  "temperature": 0,
+  "max_tokens": 512,
+  "system_prompt": "You are a JSON validation agent.",
+  "required_output_schema": {
+    "receipt_acknowledged": true,
+    "memory_retained": true,
+    "day": "release_mvp",
+    "status": "provider_validation_candidate",
+    "remote_provider_endpoint_acknowledged": "https://api.groq.com/openai/v1/chat/completions",
+    "kernel_parser_acknowledged": true,
+    "secret_guard_acknowledged": true,
+    "authorized_inference_acknowledged": true
+  }
+}
