@@ -2,10 +2,8 @@
 
 <video src="demo.mp4" width="100%" autoplay loop muted playsinline></video>
 
-
 **Website:** https://toqie.com  
 **Contact:** architect@toqie.com
-
 
 This folder contains the public/stateless Toqie Kernel package.
 
@@ -38,9 +36,3 @@ PUBLIC TRACK / STATELESS
 ```
 
 If a private/ folder is manually supplied later, the same gatekeeper can detect it and unlock Architect mode.
-
-## Contact
-
-For architecture, licensing, or integration inquiries:
-
-**architect@toqie.com**
