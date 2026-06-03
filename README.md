@@ -1,4 +1,4 @@
-﻿# Toqie Public Release
+# Toqie Public Release
 
 <video src="demo.mp4" width="100%" autoplay loop muted playsinline></video>
 
@@ -34,3 +34,9 @@ PUBLIC TRACK / STATELESS
 ```
 
 If a private/ folder is manually supplied later, the same gatekeeper can detect it and unlock Architect mode.
+
+## Contact
+
+For architecture, licensing, or integration inquiries:
+
+**architect@toqie.com**
